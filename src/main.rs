@@ -1,4 +1,4 @@
 fn main() {
-    // `!`が末尾につくのは、マクロであるというサイン
-    println!("最小の素数は{}です", 2);
+    let hoge: i32 = 10;
+    println!("{} {} {}", hoge, hoge+2, hoge*2);
 }
